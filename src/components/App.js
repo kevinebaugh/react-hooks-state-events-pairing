@@ -9,7 +9,6 @@ function App() {
 
   function toggleComments() {
     setCommentState(!commentState)
-    console.log("commentState", commentState)
   }
 
   return (

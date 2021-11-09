@@ -2,8 +2,6 @@ import React from "react";
 import Comment from "./Comment";
 
 function Comments({ comments, commentState }) {
-  console.log("commentState", commentState)
-
   if (commentState === true) {
     return (
       <>

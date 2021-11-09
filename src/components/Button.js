@@ -5,7 +5,7 @@ function Button({ job, icon, votes, handleClick }) {
         {icon}
         {job}
         {
-          votes != 0 ? ` ${votes}` : ""
+          votes !== 0 ? ` ${votes}` : ""
         }
       </button>
     </>

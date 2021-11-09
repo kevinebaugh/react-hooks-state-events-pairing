@@ -8,12 +8,10 @@ function Video({ video, toggleComments}) {
 
   function handleUpvote() {
     setUpvotes(upvotes + 1)
-    console.log("upvotes", upvotes)
   }
 
   function handleDownvote() {
     setDownvotes(downvotes + 1)
-    console.log("downvotes", downvotes)
   }
 
   return (
